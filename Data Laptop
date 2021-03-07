@@ -1,0 +1,13 @@
+
+public class DataLaptop {
+    public static void main(String[] args) {
+        String[] namaLaptop = {"Asus", "HP", "Lenovo", "Macbook", "Samsung"};
+        String[] hargaLaptop = {"8.000.000", "10.000.000", "9.000.000", "15.000.000", "12.000.000"};
+        
+        for(int i = 0; i <= namaLaptop.length; i++){
+            for(int j = 0; j <= hargaLaptop.length; j++){
+                System.out.println("Laptop merk " +namaLaptop[i]+ " berharga Rp. " +hargaLaptop[j]);
+            }
+        }
+    }
+}
